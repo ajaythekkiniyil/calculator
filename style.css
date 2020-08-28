@@ -1,0 +1,85 @@
+
+body{
+    background-color:rgb(15, 15, 14);
+}
+#screen{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#container{
+    margin: 25px auto;
+    width: 1000px; ;
+    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&w=1000&q=80');
+
+}
+#calculator{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(43, 160, 160);
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 10px;
+}
+#screen{
+    //background-color: rgb(109, 180, 180);
+    border-radius: 10px;
+    width: 330px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left:8px;
+    
+}
+#keyboard{
+   background-color: rgb(57, 172, 172));
+    width: 330px;
+    height: 400px;
+    margin: 10px;
+    top: 5px;
+    position: relative;
+    border-radius: 10px;
+}
+.operator{
+    margin: 14px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(226, 65, 65);
+    cursor: pointer;
+    outline: 0;
+}
+.number{
+    margin: 14px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(223, 226, 57);
+    cursor: pointer;
+    outline: 0;
+}
+.number0{
+    margin: 14px;
+    top: 50px;
+    margin-left: 95px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(223, 226, 57);
+    cursor: pointer;
+    outline: 0;
+    
+}
